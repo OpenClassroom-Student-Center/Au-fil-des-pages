@@ -1,0 +1,76 @@
+/* Feuille de style de la librairie Au fil des pages */
+
+:root {
+  --encre: #2f4858;
+  --accent: #f6ae2d;
+  --papier: #faf7f2;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--papier);
+  color: #3a3a3;
+}
+
+.entete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: var(--encre);
+}
+
+.entete a {
+  color: #fff;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-weight: 700;
+}
+
+main {
+  max-width: 60rem;
+  margin: 2rem auto;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.catalogue {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.carte {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+.carte h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.prix {
+  font-weight: 700;
+  color: var(--encre);
+}
+
+.bandeau {
+}
+
+.pied {
+  padding: 1rem 2rem;
+  text-align: center;
+  color: #555;
+}

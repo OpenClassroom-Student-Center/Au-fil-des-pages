@@ -1,0 +1,17 @@
+{
+  "name": "demo-librairie-env",
+  "version": "1.0.0",
+  "description": "Dépôt d'entraînement : application de la librairie « Au fil des pages » (Node.js + PostgreSQL conteneurisé)",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node --env-file=.env server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "pg": "^8.16.0"
+  }
+}
